@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="1086" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="746" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -57,7 +57,7 @@
                 <mxCell id="17" value="If&lt;br&gt;lightAmount &amp;gt; 52" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="322" y="340" width="115" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="neopixelStrip.setPixelColor(0, neopixel.colors&lt;br&gt;(NeoPixelColors.Green))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="19" value="neopixelStrip.setPixelColor(0, neopixel.colors&lt;br&gt;(NeoPixelColors.Black))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="530" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -140,7 +140,7 @@
                 <mxCell id="55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="41" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="neopixelStrip.setPixelColor(4, neopixel.colors&lt;br&gt;(NeoPixelColors.Magenta))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="41" value="neopixelStrip.setPixelColor(4, neopixel.colors&lt;br&gt;(NeoPixelColors.Green))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="850" y="530" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="46" target="3" edge="1">
@@ -175,7 +175,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="Magenta lights up" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                <mxCell id="48" value="Green lights up" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="870" y="640" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="TEJOR #2-10&lt;br&gt;Ella&lt;br&gt;Light sensor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">

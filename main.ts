@@ -14,6 +14,7 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
     lightAmount = input.lightLevel()
     basic.pause(1000)
+    basic.clearScreen()
 
     if (lightAmount <= 51) {
         neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
@@ -24,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
         neopixelStrip.show()
     }
 
-    if (lightAmount > 104) {
+    if (lightAmount > 52) {
         neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
         neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
@@ -51,7 +52,7 @@ input.onButtonPressed(Button.A, function () {
         neopixelStrip.show()
     }
 
-    if (lightAmount <= 208) {
+    if (lightAmount > 208) {
         neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
         neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
@@ -60,6 +61,14 @@ input.onButtonPressed(Button.A, function () {
         neopixelStrip.show()
     }
 
+    basic.pause(1000)
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
+
+    neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.show()
 })

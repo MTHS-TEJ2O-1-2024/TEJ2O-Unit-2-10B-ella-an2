@@ -15,9 +15,9 @@ basic.showIcon(IconNames.Happy)
 
 //what happens when button a is pressed
 input.onButtonPressed(Button.A, function () {
-    lightAmount = input.lightLevel()
     basic.pause(1000)
     basic.clearScreen()
+    lightAmount = input.lightLevel()
 
     //when light level is less than 51
     if (lightAmount <= 51) {
